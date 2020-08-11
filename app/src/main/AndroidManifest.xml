@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rozrywka_firebase">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fun_icon_white"
+        android:label="Rozrywka Firebase"
+        android:roundIcon="@mipmap/fun_icon_white_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.rozrywka_firebase.LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.AddActivities.AddNewItemActivity"
+            android:label="Dodaj serial"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.DeleteActivities.DeleteItemActivity"
+            android:label="Usuń serial"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.EditActivities.EditItemActivity"
+            android:label="Edytuj serial"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.FindNewItemActivity"
+            android:label="Znajdź serial"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.SignUpActivity"
+            android:label="Utwórz konto"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.MainActivity"
+            android:label="Seriale"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.AddActivities.AddNewBookActivity"
+            android:label="Dodaj książkę"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.AddActivities.AddNewGameActivity"
+            android:label="Dodaj grę"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.BooksActivity"
+            android:label="Książki"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.GamesActivity"
+            android:label="Gry"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.DeleteActivities.DeleteBookActivity"
+            android:label="Usuń książkę"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.DeleteActivities.DeleteGameActivity"
+            android:label="Usuń grę"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.EditActivities.EditBookActivity"
+            android:label="Edytuj książkę"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.rozrywka_firebase.EditActivities.EditGameActivity"
+            android:label="Edytuj grę"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

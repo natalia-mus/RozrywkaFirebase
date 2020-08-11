@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginTop="40dp">
+
+
+    <EditText
+        android:id="@+id/editBook_title"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto"
+        android:textSize="30dp"
+        android:hint="tytuł"/>
+
+    <EditText
+        android:id="@+id/editBook_author"
+        android:layout_marginTop="30dp"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto"
+        android:textSize="30dp"
+        android:hint="autor"/>
+
+    <EditText
+        android:id="@+id/editBook_genre"
+        android:layout_marginTop="30dp"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto"
+        android:textSize="30dp"
+        android:hint="gatunek"/>
+
+    <EditText
+        android:id="@+id/editBook_year"
+        android:layout_marginTop="30dp"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto"
+        android:textSize="30dp"
+        android:hint="rok wydania"/>
+
+    <CheckBox
+        android:id="@+id/editBook_read"
+        android:layout_marginTop="30dp"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto"
+        android:textSize="16dp"
+        android:text="przeczytana"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="-130dp"/>
+
+
+    <Button
+        android:id="@+id/editBook_ok"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round_corner_button"
+        android:textColor="#F1F1F1"
+        android:fontFamily="@font/roboto"
+        android:textSize="30dp"
+        android:text="OK"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

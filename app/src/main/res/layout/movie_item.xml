@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="20dp">
+
+
+
+        <TextView
+            android:id="@+id/movieTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="Anna German"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/movieCountryLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="kraj produkcji: "
+                android:textSize="26dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/movieCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="RU, PL"
+                android:textSize="26dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/movieNetworkLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="stacja: "
+                android:textSize="26dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/movieNetwork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="TVP1"
+                android:textSize="26dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/movieSeenLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="obejrzany: "
+            android:textSize="26dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/movieSeen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="TAK"
+            android:textSize="26dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/round_corner_button"
+            android:layout_marginRight="3dp"
+            android:textColor="#F1F1F1"
+            android:fontFamily="@font/roboto"
+            android:text="EDYTUJ"
+            android:textSize="26dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/round_corner_button"
+            android:layout_marginLeft="3dp"
+            android:textColor="#F1F1F1"
+            android:fontFamily="@font/roboto"
+            android:text="USUŃ"
+            android:textSize="26dp"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
