@@ -15,7 +15,7 @@ Aplikacja, dzięki wykorzystaniu API, umożliwia również wyszukiwanie seriali 
 
 ![rozrywka_firebase_6](https://user-images.githubusercontent.com/56269299/89924374-39716700-dc02-11ea-8450-bebbed851260.png)
 
-Projekt korzysta z Firebase Database. Użytkownik podczas pierwszego uruchomienia aplikacji (lub po wylogowaniu) zostaje poproszony o zalogowanie się lub utworzenie konta. Do utworzenia konta służy adres e-mail.
+Projekt korzysta z Firebase Realtime Database. Użytkownik podczas pierwszego uruchomienia aplikacji (lub po wylogowaniu) zostaje poproszony o zalogowanie się lub utworzenie konta. Do utworzenia konta służy adres e-mail.
 
 ![rozrywka_firebase_1](https://user-images.githubusercontent.com/56269299/89924437-4b530a00-dc02-11ea-81df-25d446bcbd07.png)
 
