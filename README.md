@@ -19,6 +19,6 @@ Projekt korzysta z Firebase Realtime Database. Użytkownik podczas pierwszego ur
 
 ![rozrywka_firebase_1](https://user-images.githubusercontent.com/56269299/89924437-4b530a00-dc02-11ea-81df-25d446bcbd07.png)
 
-**język programowania: Kotlin  
-żródło API: https://www.episodate.com/api  
+
+**żródło API: https://www.episodate.com/api  
 autor: Natalia Muskała**
